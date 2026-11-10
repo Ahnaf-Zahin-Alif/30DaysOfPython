@@ -47,16 +47,20 @@ food_stuff_tp = fruits + vegetables + animal_products
 
 food_stuff_lt = list(food_stuff_tp) 
 
-food_stuff_lt.pop(3)
+mid = len(food_stuff_tp) // 2
+middle_items = food_stuff_tp[mid - 1 : mid + 1]
+print('Middle Items: ' , middle_items)
 
 
-food_stuff_lt[:3]
-food_stuff_lt[3:]
+print(food_stuff_lt[:3])
+print(food_stuff_lt[-3:])
 
-del(food_stuff_lt)
 
 exists = 'Bonnie' in food_stuff_tp
 print(exists)
+
+del(food_stuff_tp)
+
 
 
 nordic_countries =(
