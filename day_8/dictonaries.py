@@ -1,58 +1,54 @@
-dog = {
-    'name' : 'brown',
-    'breed' : 'pitbull',
-    'legs' : 'four',
-    'age' : '2',
-}
-
+dog = {}
+ 
+dog['name'] = 'Brown'
+dog['color'] = 'Golden'
+dog['breed'] = 'Pitbull'
+dog['legs'] = '4'
+dog['age'] = '2'
 
 
 student = {
-    'key1' : 'Ahnaf',
-    'key2' : 'Alif',
-    'key3' : 'male',
-    'key4' : '21',
-    'key5' : 'Unmarried',
-    'key6' : 'Python , java , C++',
-    'key7' : 'Bangladesh',
-    'key8' : 'Dhaka',
-    'key9' : {
-        'area' : 'Middle Badda',
-        'building name' : 'Badda Nitol Tata House'
+    'first_name': 'Ahnaf',
+    'last_name': 'Alif',
+    'gender': 'male',
+    'age': 21,
+    'marital_status': 'Unmarried',
+    'skills': ['Python', 'Java', 'C++'],
+    'country': 'Bangladesh',
+    'city': 'Dhaka',
+    'address': {
+        'area': 'Middle Badda',
+        'building_name': 'Badda Nitol Tata House'
     }
-    
-    
-        
 }
 
 
+length_student = len(student)
+print(length_student)
+
+skills = student['skills']
+print(skills)
+
+print(type(skills))
+
+student['skills'].append('Html , Css')
+print(student)
 
 
 
 
+keys = list(student.keys())
+print(keys)
+
+values = list(student.values())
+print(values)
+
+items = list(student.items())
+print(items)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+del student['city']
+del student
 
 
 
