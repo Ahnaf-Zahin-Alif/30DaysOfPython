@@ -1,85 +1,85 @@
-# for number in range(11):
-#     print(number)
+for number in range(11):
+    print(number)
     
-# count = 0
-# while count < 11:
+count = 0
+while count < 11:
     
-#     print(count)
-#     count += 1
-    
-    
-
-# for nums in range(10 , -1 , -1):
-#     print(nums)
-
-# coun = 10
-# while coun > -1:
-    
-#     print(coun)
-#     coun -= 1
-
-
-# for seq in range(1 , 8):
-#     print('#' * seq)
-
-
-
-# for i in range(1 , 9):
-#     print('# ' * 8 , end=' ')
-#     print()
-    
-
-
-# for i in range(8):
-#     for j in range(8):
-#         print('#' , end=' ')
-
-#     print()
-
-
-# for i in range(0 , 11):
-#     print(f"{i} x {i} = {i*i}")
-
-
-
-# python_frameworks = ['Python' , 'Numpy' , 'Pandas' , 'Django' , 'Flask']
-
-# for tech in python_frameworks:
-#     print(tech)
+    print(count)
+    count += 1
     
     
+
+for nums in range(10 , -1 , -1):
+    print(nums)
+
+coun = 10
+while coun > -1:
     
-# for i in range (0 , 100):
-#     if(i % 2 == 0):
-#         print(i)    
+    print(coun)
+    coun -= 1
+
+
+for seq in range(1 , 8):
+    print('#' * seq)
+
+
+
+for i in range(1 , 9):
+    print('# ' * 8 , end=' ')
+    print()
+    
+
+
+for i in range(8):
+    for j in range(8):
+        print('#' , end=' ')
+
+    print()
+
+
+for i in range(0 , 11):
+    print(f"{i} x {i} = {i*i}")
+
+
+
+python_frameworks = ['Python' , 'Numpy' , 'Pandas' , 'Django' , 'Flask']
+
+for tech in python_frameworks:
+    print(tech)
     
     
-# for i in range (0 , 100):
-#     if(i % 2 != 0):
-#         print(i)    
+    
+for i in range (0 , 100):
+    if(i % 2 == 0):
+        print(i)    
+    
+    
+for i in range (0 , 100):
+    if(i % 2 != 0):
+        print(i)    
         
     
     
-# sum = 0 
-# for i in range(0 , 101):
-#     sum += i   
+sum = 0 
+for i in range(0 , 101):
+    sum += i   
     
-# print(f"The sum of all numbers is {sum}")    
-    
-    
+print(f"The sum of all numbers is {sum}")    
     
     
-# sum_even = 0
-# sum_odd = 0
+    
+    
+sum_even = 0
+sum_odd = 0
 
-# for i in range(0 , 101):
-#     if(i % 2) == 0:
-#         sum_even += i    
-#     elif(i % 2 != 0):
-#         sum_odd += i
+for i in range(0 , 101):
+    if(i % 2) == 0:
+        sum_even += i    
+    elif(i % 2 != 0):
+        sum_odd += i
     
     
-# print(f"The sum of all evens is {sum_even}. And the sum of all odds is {sum_odd}")        
+print(f"The sum of all evens is {sum_even}. And the sum of all odds is {sum_odd}")        
     
     
 countries = [
@@ -282,18 +282,18 @@ countries = [
     
     
     
-# for country in countries:
-#     if('land' in country):
-#         print(country)    
+for country in countries:
+    if('land' in country):
+        print(country)    
     
     
     
-# fruits = [
-#     'banana' , 'orange' , 'mango' , 'lemon'
-# ]    
+fruits = [
+    'banana' , 'orange' , 'mango' , 'lemon'
+]    
     
-# for fruit in fruits[::-1]:
-#     print(fruit)    
+for fruit in fruits[::-1]:
+    print(fruit)    
     
     
     
