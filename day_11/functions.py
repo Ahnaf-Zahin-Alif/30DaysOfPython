@@ -287,7 +287,7 @@ def is_valid_variable(name):
 print(is_valid_variable('alif'))
 
 
-from countries_data import countries_data
+from day_14.countries_data import countries_data
 from collections import Counter
 
 def total_language(data):
